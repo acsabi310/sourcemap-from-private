@@ -27,7 +27,7 @@ module.exports = {
 	plugins: [
 		new webpack.SourceMapDevToolPlugin({
 			filename: './[hash]/[name].bundle.js.map',
-			append: '\n//# sourceMappingURL=https://git.shiwaforce.com/anyamkinja/[url]'
+			append: '\n//# sourceMappingURL=https://github.com/animercsaba/sourcemap-from-private/blob/master/dist/common/[url]'
 		})
 	],
 };
