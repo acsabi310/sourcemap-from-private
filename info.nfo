@@ -1,0 +1,10 @@
+entry: kiindulási pont, js ami behúzza a css-t, amiben ha talál url-t fontra, akkor behúzza stb...
+output: hova, neve ([name]-entry-ből a kulcs)
+-w kapcsoló, frissít változáskor
+resolve: alias-ok adhatók meg, alapértelmezett: node_modules, fejbe lehet csapni a package.json-ből jövőket
+loader: entry ponttól kezdve belefut
+plugin: valamit valamikor megfuttat, bármit csinálhat
+loaderek és pluginok lentről felfelé futnak le!!
+file loader: pl bg image a css-ben
+url loader: file loader van mőgötte, megadható méret, ha annál nagyobb -> url, ha kisebb -> base64
+-p kapcsoló: minify-ol, css-nél környezeti változó alapján dönteni
