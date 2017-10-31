@@ -691,4 +691,4 @@ module.exports = function (css) {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=https://git.shiwaforce.com/anyamkinja/3114126756d175cce5bf/common.bundle.js.map
+//# sourceMappingURL=https://github.com/animercsaba/sourcemap-from-private/blob/master/dist/common/3114126756d175cce5bf/common.bundle.js.map
